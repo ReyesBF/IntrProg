@@ -29,8 +29,9 @@ public class Main
 		} while(numerolf <3);
 		
 		// for
-		for(int x= 3 ; numeroFor < x ;  numeroFor ++){
-	        System.out.println(numeroFor);
+		for(int x= 0 ; x <3 ;  x++){
+			numeroFOr = x;
+			System.out.println(numeroFOr);
 		}
 		
 		//switch
