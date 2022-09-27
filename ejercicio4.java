@@ -3,11 +3,11 @@ public class Main
 	public static void main(String[] args) {
 		System.out.println("EJERCICIO CONDICIONALES");
 		System.out.println("");
-		
+		//variables
 		int numerolf = 788;
 		int numeroWhile = 0;
 		int numeroFOr = 0;
-    String estacion = "INVIERNO";
+		String estacion = "INVIERNO";
 	
 		// condicional IF
 		if (numerolf < 0){
@@ -31,11 +31,10 @@ public class Main
 		// for
 		for(int x= 3 ; numeroFor < x ;  numeroFor ++){
 	        System.out.println(numeroFor);
-	    }
 		}
-    
-    //switch
-    switch(estacion){
+		
+		//switch
+		switch(estacion){
 		    case "PRIMAVERA":
 		        System.out.println("Es "+ estacion);
 		        break;
